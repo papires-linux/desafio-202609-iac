@@ -1,0 +1,14 @@
+version: 3
+
+projects:
+  - name: eks-teste
+    dir: eks-teste
+
+    autoplan:
+      enabled: true
+      when_modified:
+        - "*.tf"
+        - "*.tfvars"
+        - "network/*.tf"
+        - "eks/*.tf"
+        - "pods/*.tf"
