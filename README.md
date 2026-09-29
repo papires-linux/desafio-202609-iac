@@ -11,6 +11,7 @@ Nesta etapa, teremos um desafio técnico com os seguintes objetivos:
 
 ---
 
+
 # AWS EKS + Terraform + Prometheus + Grafana + Argo CD
 
 Infraestrutura como código para provisionamento de um cluster **Amazon EKS** utilizando **Terraform**, com observabilidade baseada em **Prometheus, Grafana e Alertmanager**, além de **Argo CD** para suporte ao modelo GitOps.
